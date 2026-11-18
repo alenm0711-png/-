@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+<title>Встречка — гонка по дороге</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="wrap">
+  <canvas id="c" width="480" height="720"></canvas>
+  <div id="menu" class="overlay">
+    <h1>Встречка</h1>
+    <p id="msg"></p>
+    <div id="bank"></div>
+    <div id="garage"></div>
+    <button id="play" class="big">Ехать</button>
+    <p class="hint">Управление: ← → или A D — руля, ↓ или S — тормоз. Газ включён сам. Обгоняй по встречке и копи деньги на новые машины.</p>
+  </div>
+  <div id="touch">
+    <button data-k="left">◀</button>
+    <button data-k="brake">Тормоз</button>
+    <button data-k="right">▶</button>
+  </div>
+</div>
+<script src="game.js"></script>
+</body>
+</html>
